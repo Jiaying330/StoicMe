@@ -1,0 +1,55 @@
+body {
+    background-color: #322653;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.quote-container {
+    width: 60%;
+    /* background-color: blueviolet; */
+    /* color: blueviolet; */
+}
+#quote {
+    /* font-size: 3vh; */
+    color: whitesmoke;
+    text-shadow: 0 0 10px #FFD2D7; 
+    letter-spacing: 3px;
+    /* font-weight: bold; */
+}
+
+#quote::first-letter {
+    font-size: 40px;
+    color: rgb(253, 236, 136);
+    font-weight: bolder;
+}
+
+#author {
+    font-size: 35px;
+    color: rgb(197, 197, 197);
+    text-shadow: 2px 3px 5px #FFD2D7; 
+    letter-spacing: 3px;
+    float: inline-end;
+}
+
+a {
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-shadow: 0 0 10px gold; 
+    transition: all 0.5s;
+}
+a:hover {
+    font-size:35px;
+    color: goldenrod;
+    font-weight: bolder;
+    /* padding:0px; */
+    text-shadow: 5px 5px 30px white; 
+}
